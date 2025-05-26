@@ -43,7 +43,7 @@ function App() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-black">
         <div className="font-serif md:max-w-3xl sm:max-w-md bg-white p-6 rounded-xl shadow  text-red-600 font-semibold text-sm">
-          <p className="font-serif text-2xl text-gray-600 pb-2">Seems like there was an unexpected error :/</p>
+          <p className="font-serif text-2xl text-gray-600 pb-2">Seems like there was an error loading the page :/</p>
           {error}
         </div>
       </div>
